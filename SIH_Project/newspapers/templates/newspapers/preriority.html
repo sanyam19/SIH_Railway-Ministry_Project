@@ -1,0 +1,34 @@
+{% extends "main.html" %}
+{% block content %}
+<div id="tog" class="text-white" style="position: absolute;z-index: 10;">
+    <span class="btn btn-sm" data-toggle="offcanvas"><i class="fas fa-bars fa-2x"></i></span>
+</div>
+
+
+                <div class="container row mx-auto">
+                    <div class="col-12 my-2 border bg-white text-dark rounded">
+                        <h4 class="text-center d-block my-3">Popular News From "NewsPaper Name"</h4>
+                    </div>
+
+                    <div class="col-12 text-justify bg-white text-dark border rounded mt-1">
+                      {% for color,single_news in colors,news %}
+                        <h4 class="ml-1 d-block my-3">News </h4>
+                        {% if color == 1 %}
+                        <P class="container">{{single_news}}</P>
+                        <span class="badge badge-pill badge-danger notification">3</span>
+                        {% elif color == 2 %}
+                        <P class="container">{{single_news}}</P>
+                        <span class="badge badge-pill badge-success notification">3</span>
+                        {% if color == 3 %}
+                        <P class="container">{{single_news}}</P>
+                        <span class="badge badge-pill badge-warning notification">3</span>
+                        {% if color == 4 %}
+                        <P class="container">{{single_news}}</P>
+                        <span class="badge badge-pill badge-info notification">3</span>
+                        {% if color == 5 %}
+                        <P class="container">{{single_news}}</P>
+                        <span class="badge badge-pill badge-dark notification">3</span>
+                      {% endfor %}
+                    </div>
+                </div>
+{% endblock %}
