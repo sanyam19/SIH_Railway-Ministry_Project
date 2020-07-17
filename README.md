@@ -1,5 +1,11 @@
 # SIH_Railway-Ministry_Project
-We built a website for Railway Ministry for the Grand Finale of SIH. It scrapes stuffs ralated to Railways in real time including news from different Newspapers.News scrapped is according to the Sentiment i.e. News with most negative sentiment is on top,most positive on second,less negative ,less positive and neutral sentiment likewise respectively.We also integerated DAVP Advertisement Calculator in the Website itself which gives the price of the advertisement for a particular newspaper via dimensionwise , colorwise , regional languages accordingly.We scrapped Rates of Advertisement of different newspapers.There is a dashboard for each member ,the one who is registered in the Website.He can share the news through whatsapp , fb,twitter,etc. Railway may also create a news manually and can share it on whatsapp,etc is also included in this website.User login is through R-Uid No. which is an unique for a Railway Employee and through email id and password.
+•We built a website for Railway Ministry for the Grand Finale of SIH. 
+•It scrapes stuffs ralated to Railways in real time including news from different Newspapers.News scrapped is according to the Sentiment i.e. News with most negative sentiment is on top,most positive on second,less negative ,less positive and neutral sentiment likewise respectively.
+We also integerated DAVP Advertisement Calculator in the Website itself which gives the price of the advertisement for a particular newspaper via dimensionwise , colorwise , regional languages accordingly.
+•We scrapped Rates of Advertisement of different newspapers.
+•There is a dashboard for each member ,the one who is registered in the Website, He can share the news through whatsapp, fb, twitter, etc. 
+•Railway may also create a news manually and can share it on whatsapp,etc is also included in this website.
+•User login is through R-Uid No. which is an unique for a Railway Employee and through email id and password.
 
 # Railway_News_System
 
@@ -19,3 +25,19 @@ This project is done for SIH-2019 under Central Ministry where Central Ministry 
 * Smart India Hackathon 
 * MHRD
 * AICTE
+
+## Screenshots
+
+![Login Page](https://user-images.githubusercontent.com/29943381/55633462-0cc16a00-57da-11e9-92da-7e17f5f5c692.png)
+
+![](https://user-images.githubusercontent.com/29943381/55633838-d506f200-57da-11e9-918c-111d968fc8d0.png)
+
+![](https://user-images.githubusercontent.com/29943381/55634315-dedd2500-57db-11e9-9b3f-fb0b69f08aa4.png)
+
+![](https://user-images.githubusercontent.com/29943381/55634446-2bc0fb80-57dc-11e9-8448-8070537c41bd.png)
+
+![](https://user-images.githubusercontent.com/29943381/55634597-7478b480-57dc-11e9-994c-e3459bb35b75.png)
+
+![](https://user-images.githubusercontent.com/29943381/55634841-ed780c00-57dc-11e9-901c-07545ff2518b.png)
+
+![](https://user-images.githubusercontent.com/29943381/55635028-5d869200-57dd-11e9-9d27-b4da888fbd4c.png)
